@@ -36,3 +36,18 @@ TARGET_OTA_ASSERT_DEVICE := haydn,haydnpro,haydn_in,haydnin
 TW_STATUS_ICONS_ALIGN := center
 TW_Y_OFFSET := 88
 TW_H_OFFSET := -88
+
+# SHRP
+SHRP_PATH := device/xiaomi/haydn
+SHRP_DEVICE_CODE := haydn
+SHRP_MAINTAINER := Akshay
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_AB := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
